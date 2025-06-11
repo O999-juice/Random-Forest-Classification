@@ -21,10 +21,10 @@ ___
 
 ## Requirements
 - Python
-- PyTorch
 - pandas
 - numpy
 - matplotlib
+- seaborn
 - scikit-learn
 
 ## Installing Python dependencies
@@ -37,7 +37,7 @@ With Python installed, please go to the Command Line interface of your operating
 - `pip install pandas`
 - `pip install numpy`
 - `pip install matplotlib`
--  `pip install seaborn`
+- `pip install seaborn`
 - `pip install scikit-learn`
 
 
