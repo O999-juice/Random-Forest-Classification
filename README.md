@@ -6,6 +6,18 @@
 ![license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
+This project demonstrates how to build a **Random Forest Classifier** to predict music genres using audio feature data from Spotify.  
+The model is trained on a curated subset of the `spotify_tracks.csv` dataset, focusing on popular genres such as **pop**, **country**, **hip-hop**, **rock**, **latin**, **edm** and more.
+
+
+## Key Features
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis  
+- Feature selection and encoding  
+- Train/test split and model training  
+- Evaluation using accuracy, classification report, and confusion matrix  
+- Options for hyperparameter tuning using GridSearchCV
+
 ## License
 ```
 MIT License
