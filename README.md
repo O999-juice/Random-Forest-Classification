@@ -1,4 +1,4 @@
-# Random-Forest-Classification
+# Random Forest Classification
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![pandas](https://img.shields.io/badge/pandas-2.2%2B-orange)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6%2B-yellowgreen)
@@ -8,7 +8,7 @@
 
 This project demonstrates how to build a **Random Forest Classifier** to predict music genres using audio feature data from Spotify.  
 The model is trained on a curated subset of the `spotify_tracks.csv` dataset, focusing on popular genres such as **pop**, **country**, **hip-hop**, **rock**, **latin**, **edm** and more.
-
+___
 
 ## Key Features
 - Data cleaning and preprocessing  
@@ -17,6 +17,15 @@ The model is trained on a curated subset of the `spotify_tracks.csv` dataset, fo
 - Train/test split and model training  
 - Evaluation using accuracy, classification report, and confusion matrix  
 - Options for hyperparameter tuning using GridSearchCV
+___
+
+## Requirements
+- Python
+- PyTorch
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
 
 ## License
 ```
