@@ -27,6 +27,20 @@ ___
 - matplotlib
 - scikit-learn
 
+## Installing Python dependencies
+
+I recommend using **Python 3.7 or higher** for this project. If you do not have Python installed in your local environment, please visit [python.org](https://www.python.org/downloads/) for the latest download instruction. 
+
+With Python installed, please go to the Command Line interface of your operating system and use the "pip install" prompts below to install PyTorch, Pandas, NumPy, Matplotlib, scikit-learn respectively. 
+
+- `pip install torch`
+- `pip install pandas`
+- `pip install numpy`
+- `pip install matplotlib`
+-  `pip install seaborn`
+- `pip install scikit-learn`
+
+
 ## License
 ```
 MIT License
