@@ -2,9 +2,9 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![pandas](https://img.shields.io/badge/pandas-2.2%2B-orange)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6%2B-yellowgreen)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 This Jupyter notebook demonstrates how to build a Random Forest classifier to predict music genres from Spotify track audio features. The project uses data from `spotify_tracks.csv` to classify tracks into six genres.
 ___
