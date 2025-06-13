@@ -78,7 +78,7 @@ ___
   ![alt text](Images/Dancebility_distribution_by_genre.png)
 
 
-## Feature Importance in Music Tracks
+## Random Forest Feature Importance in Music Tracks
 *Random Forest analysis of key features influencing music tracks.*
 - Scale: The x-axis ranges from 0.00 to 0.12, representing the importance score of each feature.
 - Key Features: Popularity, speechiness, and danceability are the most influential factors, while mode and explicit have minimal impact.
