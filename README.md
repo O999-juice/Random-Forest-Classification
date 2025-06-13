@@ -34,7 +34,7 @@ I recommend using **Python 3.7 or higher** for this project. If you do not have 
 
 Verify installation with: `python --version`
 
-With Python installed, please go to the Command Line interface of your operating system and use the `pip install` prompts below to install PyTorch, Pandas, NumPy, Matplotlib, Seaborn and scikit-learn respectively. 
+With Python installed, please go to the Command Line interface of your operating system and use the `pip install` prompts below to install Pandas, NumPy, Matplotlib, Seaborn and scikit-learn respectively. 
 
 ### Package Installation
 Run these commands in your terminal/command prompt:
