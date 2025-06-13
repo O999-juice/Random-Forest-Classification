@@ -25,6 +25,7 @@ ___
 - matplotlib
 - seaborn
 - scikit-learn
+- Jupyter Notebook
 
 ## Installing Python dependencies
 
