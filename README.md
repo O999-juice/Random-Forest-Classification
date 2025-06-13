@@ -58,6 +58,35 @@ pip install jupyter
 - Use Google Colab
 ___
 
+## Popularity Distribution
+*Distribution of track popularity across different music genres.*
+- Scale: Popularity scores (unlabeled range) are grouped by genre, with counts on the y-axis.
+- Trend: Pop and hip-hop dominate higher popularity counts, while country and EDM show narrower distributions.
+- Insight: The plot suggests genre plays a significant role in track popularity, with pop consistently leading.
+- Limitation: Exact popularity values are not specified, requiring further analysis for precise comparisons.
+
+  ![alt text](Images/Popularity_distribution_by_genre.png)
+
+
+## Danceability Distribution
+*Danceability Distribution by Genre.*
+- Scale: Danceability scores range from 0.2 to 1.0, with counts displayed on the y-axis.
+- Trend: EDM and pop tracks exhibit higher danceability, while country and hip-hop show broader variability.
+- Alignment: Genres like Latin and hip-hop cluster around mid-range scores, reflecting genre-specific rhythmic patterns.
+- Outliers: Some pop and EDM tracks reach near-maximum danceability, emphasizing their upbeat nature.
+
+  ![alt text](Images/Dancebility_distribution_by_genre.png)
+
+
+## Feature Importance in Music Tracks
+*Random Forest analysis of key features influencing music tracks.*
+- Scale: The x-axis ranges from 0.00 to 0.12, representing the importance score of each feature.
+- Key Features: Popularity, speechiness, and danceability are the most influential factors, while mode and explicit have minimal impact.
+- Insight: The model highlights audio attributes like energy and acousticness as moderately important, suggesting they contribute to track performance.
+- Variability: Features like instrumentalness and liveness show lower importance, indicating their limited role in the model's predictions.
+
+  ![alt text](Images/Random_forest_importance_for_music_tracks.png)
+
 ## License
 ```
 MIT License
