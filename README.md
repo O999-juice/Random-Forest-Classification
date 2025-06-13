@@ -26,6 +26,7 @@ ___
 - seaborn
 - scikit-learn
 - Jupyter Notebook
+___
 
 ## Installing Python dependencies
 
@@ -41,6 +42,7 @@ Run these commands in your terminal/command prompt:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
+___
 
 ## Jupyter Notebook (Optional)
 
@@ -54,6 +56,7 @@ pip install jupyter
 
 ### 2. View without installation:
 - Use Google Colab
+___
 
 ## License
 ```
