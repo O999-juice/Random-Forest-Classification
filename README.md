@@ -6,17 +6,16 @@
 ![license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-This project demonstrates how to build a **Random Forest Classifier** to predict music genres using audio feature data from Spotify.  
-The model is trained on a curated subset of the `spotify_tracks.csv` dataset, focusing on popular genres such as **pop**, **country**, **hip-hop**, **rock**, **latin**, **edm** and more.
+This Jupyter notebook demonstrates how to build a Random Forest classifier to predict music genres from Spotify track audio features. The project uses data from `spotify_tracks.csv` to classify tracks into six genres.
 ___
 
 ## Key Features
-- Data cleaning and preprocessing  
-- Exploratory Data Analysis  
-- Feature selection and encoding  
-- Train/test split and model training  
-- Evaluation using accuracy, classification report, and confusion matrix  
-- Options for hyperparameter tuning using GridSearchCV
+- **Data Preparation**: Loads and preprocesses Spotify track data, focusing on audio features
+- **Feature Engineering**: Selects relevant audio features and handles missing values
+- **Data Scaling**: Uses StandardScaler to normalize features for better model performance
+- **Random Forest Model**: Implements a Random Forest classifier with hyperparameter tuning
+- **Model Evaluation**: Includes confusion matrix, classification report, and accuracy metrics
+- **Feature Importance**: Visualizes which audio features most influence genre classification
 ___
 
 ## Requirements
