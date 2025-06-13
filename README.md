@@ -31,14 +31,29 @@ ___
 
 I recommend using **Python 3.7 or higher** for this project. If you do not have Python installed in your local environment, please visit [python.org](https://www.python.org/downloads/) for the latest download instruction. 
 
-With Python installed, please go to the Command Line interface of your operating system and use the "pip install" prompts below to install PyTorch, Pandas, NumPy, Matplotlib, scikit-learn respectively. 
+Verify installation with: `python --version`
 
-- `pip install pandas`
-- `pip install numpy`
-- `pip install matplotlib`
-- `pip install seaborn`
-- `pip install scikit-learn`
+With Python installed, please go to the Command Line interface of your operating system and use the `pip install` prompts below to install PyTorch, Pandas, NumPy, Matplotlib, Seaborn and scikit-learn respectively. 
 
+### Package Installation
+Run these commands in your terminal/command prompt:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+## Jupyter Notebook (Optional)
+
+The project is provided as a Jupyter Notebook (`.ipynb` file). You have two options:
+
+### 1. Install Jupyter (recommended for full interactivity):
+
+```bash
+pip install jupyter
+```
+
+### 2. View without installation:
+- Use Google Colab
 
 ## License
 ```
